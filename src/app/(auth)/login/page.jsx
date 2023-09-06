@@ -68,7 +68,7 @@ const Page = () => {
         </button>
       </form>
       <p>
-        Doesn't have Account?&nbsp;{" "}
+        Doesn&apos;t have Account?&nbsp;{" "}
         <Link href="/register" className="text-secondary underline">
           Register here
         </Link>

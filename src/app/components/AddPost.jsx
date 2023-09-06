@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useAddPostMutation } from "../redux/features/posts/postSlice";
+import Image from "next/image";
 
 const AddPost = () => {
   const [postInfo, setPostInfo] = useState({
@@ -62,7 +63,7 @@ const AddPost = () => {
       </form>
       {postImage ? (
         <>
-          <img src={postImage} alt="post image" />
+          <Image src={postImage} alt="post image" width={200} height={200} />
         </>
       ) : (
         <p>Image Preview</p>
