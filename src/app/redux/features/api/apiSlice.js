@@ -1,10 +1,10 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-const USERS_URL = "http://localhost:8000/api/users";
+const USERS_URL = "https://socialmediabackend-code.vercel.app/api/users";
 
 export const apiSlice = createApi({
   reducerPath: "userapi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:8000/",
+    baseUrl: "https://socialmediabackend-code.vercel.app/",
     credentials: "include",
   }),
   tagTypes: ["user"],

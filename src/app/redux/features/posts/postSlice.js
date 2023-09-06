@@ -1,10 +1,10 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-const POSTS_URL = "http://localhost:8000/api/posts";
+const POSTS_URL = "https://socialmediabackend-code.vercel.app/api/posts";
 
 export const postSlice = createApi({
   reducerPath: "postapi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:8000/",
+    baseUrl: "https://socialmediabackend-code.vercel.app/",
     credentials: "include",
   }),
   tagTypes: ["post"],
