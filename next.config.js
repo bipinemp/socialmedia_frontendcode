@@ -2,7 +2,7 @@
 const nextConfig = {
   env: {
     JWT_SECRET: "secret123",
-    BASE_URL: "https://socialmediabackend-code.vercel.app/",
+    BASE_URL: "https://socialmediabackend-code.vercel.app",
   },
   images: {
     remotePatterns: [

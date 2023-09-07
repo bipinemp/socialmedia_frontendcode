@@ -1,5 +1,5 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-const POSTS_URL = `${process.env.BASE_URL}api/posts`;
+const POSTS_URL = `${process.env.BASE_URL}/api/posts`;
 
 export const postSlice = createApi({
   reducerPath: "postapi",
